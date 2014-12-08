@@ -1,0 +1,115 @@
+body {
+	background-image: url('../img/wormhole.jpg');
+	color: white;
+	font-family: 'Exo', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+
+h2 {
+	font-size: 16px;
+	color: #EEC015;
+}
+
+h3 {
+	position: relative;
+	top: 110px;
+	font-size: 72px;
+	margin: 0;
+	padding: 0;
+}
+
+.buttons {
+	margin: 40px auto 0px;
+	white-space:nowrap;
+}
+
+button {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 220px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	background-color: #5D819B;
+	color: white;
+	margin: 5px 20px;
+	font-size: 16px;
+	outline: none;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+img {
+	width: 300px;
+	margin: -80px 40px 30px;
+	padding: 0px 40px;
+}
+
+.wrapper {
+	height: 1000px;
+	width: 1000px;
+	margin: -140px auto 100px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px 10px #FFF;
+	background-color: black;
+}
+
+#player {
+/*	float:left;*/
+}
+
+#comp {
+	display: inline-block;
+}
+
+
+.titles {
+	margin: 180px 0px 20px;
+	padding: 0;
+	text-align: center;
+}
+
+.player_title {
+	width: 210px;
+	display: inline-block;
+	margin: 0px 10px 10px;
+	text-align: center;
+	font-size: 28px;
+}
+
+
+hr {
+	margin: 20px auto;
+	width: 100%;
+	text-align: center;
+}
+
+table {
+	
+	margin: -400px auto;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+thead {
+	padding-bottom: 10px;
+}
+
+td {
+	padding: 5px;
+}
+
